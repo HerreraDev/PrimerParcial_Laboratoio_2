@@ -74,7 +74,7 @@ namespace GestionComercio
                         //genero un ticket
                         GenerarTicket();
 
-                        MessageBox.Show("Se ha generado en un ticket.txt, alojado en la carpeta del proyecto");
+                        MessageBox.Show("¡Se ha generado en un ticket.txt, alojado en la carpeta del proyecto!");
 
                         this.DialogResult = DialogResult.OK;
                     }
