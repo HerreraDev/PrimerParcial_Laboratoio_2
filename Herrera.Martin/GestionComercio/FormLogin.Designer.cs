@@ -75,7 +75,7 @@
             this.txtAceptar.Location = new System.Drawing.Point(12, 203);
             this.txtAceptar.Name = "txtAceptar";
             this.txtAceptar.Size = new System.Drawing.Size(103, 34);
-            this.txtAceptar.TabIndex = 4;
+            this.txtAceptar.TabIndex = 2;
             this.txtAceptar.Text = "Aceptar";
             this.txtAceptar.UseVisualStyleBackColor = true;
             this.txtAceptar.Click += new System.EventHandler(this.txtAceptar_Click);
@@ -85,7 +85,7 @@
             this.txtCancelar.Location = new System.Drawing.Point(121, 203);
             this.txtCancelar.Name = "txtCancelar";
             this.txtCancelar.Size = new System.Drawing.Size(115, 34);
-            this.txtCancelar.TabIndex = 5;
+            this.txtCancelar.TabIndex = 3;
             this.txtCancelar.Text = "Cancelar";
             this.txtCancelar.UseVisualStyleBackColor = true;
             this.txtCancelar.Click += new System.EventHandler(this.txtCancelar_Click);
@@ -101,7 +101,7 @@
             this.lblMensajeLogin.Text = "Login";
             this.lblMensajeLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FrmLogin
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,7 +117,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmLogin";
+            this.Name = "FormLogin";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

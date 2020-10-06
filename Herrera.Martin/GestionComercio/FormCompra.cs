@@ -63,7 +63,7 @@ namespace GestionComercio
                         MessageBox.Show("¡¡Como el cliente es de la familia Simpson recibe un 13% de descuento!!");
                         //aplico descuento Simpson
                         precioFinal -= (precioFinal * 0.13f);
-                        
+
                         //creo la compra
                         Stock.ListaCompras.Add(new Compra(auxEmpleado, auxCliente, listAuxProductos, precioFinal));
 
@@ -74,7 +74,7 @@ namespace GestionComercio
                         //genero un ticket
                         GenerarTicket();
 
-                        MessageBox.Show("¡Se ha generado en un ticket.txt, alojado en la carpeta del proyecto!");
+                        MessageBox.Show("¡Se ha generado un ticket.txt, alojado en la carpeta del proyecto!");
 
                         this.DialogResult = DialogResult.OK;
                     }
@@ -89,7 +89,7 @@ namespace GestionComercio
                         //genero un ticket
                         GenerarTicket();
 
-                        MessageBox.Show("Se ha generado en un ticket.txt, alojado en la carpeta del proyecto");
+                        MessageBox.Show("Se ha generado un ticket.txt, alojado en la carpeta del proyecto");
 
                         this.DialogResult = DialogResult.OK;
                     }
@@ -196,16 +196,16 @@ namespace GestionComercio
         {
             this.txtIdVendedor.Text = dtgEmpleados.CurrentRow.Cells["Id"].Value.ToString();
 
-            Empleado auxEmpleado = new Empleado((int)dtgEmpleados.CurrentRow.Cells["Id"].Value,"","","");
+            Empleado auxEmpleado = new Empleado((int)dtgEmpleados.CurrentRow.Cells["Id"].Value, "", "", "");
 
             Stock.buscarYCargarEmpleado(ref auxEmpleado);
 
-            if(!(auxEmpleado is null))
+            if (!(auxEmpleado is null))
             {
                 MessageBox.Show(auxEmpleado.Saludar());
             }
 
-            
+
 
         }
 
@@ -295,34 +295,47 @@ namespace GestionComercio
 
         private void dtgCarrito_DoubleClick(object sender, EventArgs e)
         {
-            string nombreProducto = "";
-            nombreProducto = (string)dtgCarrito.CurrentRow.Cells["Producto"].Value.ToString();
-
-            //recorro y elimino del carrito el producto, resto del precio, el precio del producto eliminado y 
-            //devuelvo la cantidad al stock original
-            for (int i = 0; i < carritoAux.Count; i++)
+            if (carritoAux.Count > 0)
             {
-                if (carritoAux[i].Producto == nombreProducto)
-                {
-                    precioFinal -= carritoAux[i].Precio * carritoAux[i].Cantidad;
-                    Stock.ListaProductos[i].Cantidad += carritoAux[i].Cantidad;
-                    carritoAux.Remove(carritoAux[i]);
-                    break;
-                }
-            }
-            this.lblTotal.Text = precioFinal.ToString();
-            ActualizarCarrito();
 
-            //elimino el producto que se fue del carrito de la lista que se va a cargar en la nueva compra
-            for (int i = 0; i < listAuxProductos.Count; i++)
-            {
-                if (listAuxProductos[i].NombreProducto == nombreProducto)
+
+                string nombreProducto = "";
+                nombreProducto = (string)dtgCarrito.CurrentRow.Cells["Producto"].Value.ToString();
+
+                Producto auxProducto = new Producto(-1, nombreProducto, -1, 1);
+
+                int indiceDelProductoEnLaListaDelStock = (auxProducto == Stock.ListaProductos);
+
+                //recorro y elimino del carrito el producto, resto del precio, el precio del producto eliminado y 
+                //devuelvo la cantidad al stock original
+                for (int i = 0; i < carritoAux.Count; i++)
                 {
-                    listAuxProductos.Remove(listAuxProductos[i]);
-                    break;
+                    if (carritoAux[i].Producto == nombreProducto)
+                    {
+                        precioFinal -= carritoAux[i].Precio * carritoAux[i].Cantidad;
+                        Stock.ListaProductos[indiceDelProductoEnLaListaDelStock].Cantidad += carritoAux[i].Cantidad;
+                        carritoAux.Remove(carritoAux[i]);
+                        break;
+                    }
                 }
+                this.lblTotal.Text = Validaciones.AyudaPrecioFinal(precioFinal.ToString()).ToString();
+                ActualizarCarrito();
+
+                //elimino el producto que se fue del carrito de la lista que se va a cargar en la nueva compra
+                for (int i = 0; i < listAuxProductos.Count; i++)
+                {
+                    if (listAuxProductos[i].NombreProducto == nombreProducto)
+                    {
+                        listAuxProductos.Remove(listAuxProductos[i]);
+                        break;
+                    }
+                }
+                ActualizarDtgProductos();
             }
-            ActualizarDtgProductos();
+            else
+            {
+                MessageBox.Show("Esta vacio");
+            }
 
         }
 
@@ -330,7 +343,7 @@ namespace GestionComercio
         {
             FormAgregarCliente formAgregarCliente = new FormAgregarCliente();
 
-            if(formAgregarCliente.ShowDialog() == DialogResult.OK)
+            if (formAgregarCliente.ShowDialog() == DialogResult.OK)
             {
                 MessageBox.Show("¡Nuevo cliente registrado con exito!");
                 ActualizarDtgClientes();
@@ -339,6 +352,11 @@ namespace GestionComercio
             {
                 MessageBox.Show("Registro cancelado");
             }
+
+        }
+
+        private void dtgCarrito_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

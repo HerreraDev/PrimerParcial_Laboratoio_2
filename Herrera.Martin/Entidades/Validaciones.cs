@@ -66,5 +66,20 @@ namespace Entidades
             }
             return vacio;
         }
+
+        public static float AyudaPrecioFinal(string auxString)
+        {
+            float.TryParse(auxString, out float parseado);
+
+            if(parseado < 0)
+            {
+                return parseado = 0;
+            }
+            else
+            {
+                return parseado;
+            }
+
+        }
     }
 }

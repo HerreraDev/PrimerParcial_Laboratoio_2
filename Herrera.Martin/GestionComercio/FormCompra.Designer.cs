@@ -382,6 +382,7 @@
             this.dtgCarrito.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgCarrito.Size = new System.Drawing.Size(423, 292);
             this.dtgCarrito.TabIndex = 19;
+            this.dtgCarrito.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgCarrito_CellContentClick);
             this.dtgCarrito.DoubleClick += new System.EventHandler(this.dtgCarrito_DoubleClick);
             // 
             // lblCarrito

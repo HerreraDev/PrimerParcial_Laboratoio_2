@@ -1,0 +1,23 @@
+﻿===========================
+DATOS DEL CLIENTE: 
+ID: 2
+Nombre: Marge
+Apellido: Simpson
+
+DNI: 12548484
+
+===========================
+DATOS DEL EMPLEADO: 
+ID: 1
+Nombre: Apu
+Apellido: Nahasapeemapetilon 
+
+Nacionalidad: India
+
+===========================
+PRODUCTOS: 
+Rosquillas: $10, 
+===========================
+TOTAL:    $8.7
+===========================
+

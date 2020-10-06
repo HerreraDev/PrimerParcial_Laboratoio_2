@@ -4,3 +4,15 @@ C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laborato
 C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\HerreraMartinParcial\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\HerreraMartinParcial\Entidades\obj\Debug\Entidades.dll
 C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\HerreraMartinParcial\Entidades\obj\Debug\Entidades.pdb
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\bin\Debug\Entidades.dll
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\bin\Debug\Entidades.pdb
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\obj\Debug\Entidades.dll
+C:\Users\marti\Desktop\PrimerParcial_Laboratoio_2-master\Herrera.Martin\Entidades\obj\Debug\Entidades.pdb
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\bin\Debug\Entidades.dll
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\bin\Debug\Entidades.pdb
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\obj\Debug\Entidades.dll
+C:\Users\marti\Desktop\Facultad\Segundo cuatrimestre\Programación II y Laboratorio II\Programacion-II-y-Laboratorio-II\Parciales\PrimerParcial_Laboratoio_2\Herrera.Martin\Entidades\obj\Debug\Entidades.pdb

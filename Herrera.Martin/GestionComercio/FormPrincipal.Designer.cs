@@ -55,7 +55,7 @@
             this.btn_Login.Location = new System.Drawing.Point(420, 263);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(88, 22);
-            this.btn_Login.TabIndex = 1;
+            this.btn_Login.TabIndex = 8;
             this.btn_Login.Text = "Login";
             this.btn_Login.UseVisualStyleBackColor = true;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
@@ -65,7 +65,7 @@
             this.btnHacerCompra.Location = new System.Drawing.Point(12, 211);
             this.btnHacerCompra.Name = "btnHacerCompra";
             this.btnHacerCompra.Size = new System.Drawing.Size(253, 21);
-            this.btnHacerCompra.TabIndex = 3;
+            this.btnHacerCompra.TabIndex = 1;
             this.btnHacerCompra.Text = "Realizar Compra";
             this.btnHacerCompra.UseVisualStyleBackColor = true;
             this.btnHacerCompra.Click += new System.EventHandler(this.btnHacerCompra_Click);
@@ -75,7 +75,7 @@
             this.btnRevisarStock.Location = new System.Drawing.Point(12, 238);
             this.btnRevisarStock.Name = "btnRevisarStock";
             this.btnRevisarStock.Size = new System.Drawing.Size(253, 22);
-            this.btnRevisarStock.TabIndex = 4;
+            this.btnRevisarStock.TabIndex = 2;
             this.btnRevisarStock.Text = "Control stock";
             this.btnRevisarStock.UseVisualStyleBackColor = true;
             this.btnRevisarStock.Click += new System.EventHandler(this.btnRevisarStock_Click);
@@ -85,7 +85,7 @@
             this.btnCerrar.Location = new System.Drawing.Point(12, 266);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(253, 19);
-            this.btnCerrar.TabIndex = 5;
+            this.btnCerrar.TabIndex = 3;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -95,12 +95,12 @@
             this.btnVentas.Location = new System.Drawing.Point(12, 184);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(253, 21);
-            this.btnVentas.TabIndex = 6;
+            this.btnVentas.TabIndex = 0;
             this.btnVentas.Text = "Ventas realizadas";
             this.btnVentas.UseVisualStyleBackColor = true;
             this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
             // 
-            // FrmPrincipal
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +116,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmPrincipal";
+            this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kwek E Mart";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);

@@ -44,7 +44,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(43, 252);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 0;
+            this.btnAceptar.TabIndex = 3;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -54,7 +54,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(124, 252);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 1;
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             this.txtNombre.Location = new System.Drawing.Point(43, 111);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(156, 20);
-            this.txtNombre.TabIndex = 3;
+            this.txtNombre.TabIndex = 0;
             this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // txtApellido
@@ -73,7 +73,7 @@
             this.txtApellido.Location = new System.Drawing.Point(43, 164);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(156, 20);
-            this.txtApellido.TabIndex = 4;
+            this.txtApellido.TabIndex = 1;
             this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
             // 
             // txtDni
@@ -81,7 +81,7 @@
             this.txtDni.Location = new System.Drawing.Point(43, 213);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(156, 20);
-            this.txtDni.TabIndex = 5;
+            this.txtDni.TabIndex = 2;
             // 
             // label1
             // 

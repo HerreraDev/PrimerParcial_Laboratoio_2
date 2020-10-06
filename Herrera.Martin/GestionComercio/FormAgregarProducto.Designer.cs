@@ -54,7 +54,7 @@
             this.btnAgregarProducto.Location = new System.Drawing.Point(21, 240);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(114, 25);
-            this.btnAgregarProducto.TabIndex = 1;
+            this.btnAgregarProducto.TabIndex = 3;
             this.btnAgregarProducto.Text = "Agregar";
             this.btnAgregarProducto.UseVisualStyleBackColor = true;
             this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
@@ -64,7 +64,7 @@
             this.txtNombre.Location = new System.Drawing.Point(21, 95);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(228, 20);
-            this.txtNombre.TabIndex = 2;
+            this.txtNombre.TabIndex = 0;
             this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // txtPrecio
@@ -72,14 +72,14 @@
             this.txtPrecio.Location = new System.Drawing.Point(21, 153);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(228, 20);
-            this.txtPrecio.TabIndex = 3;
+            this.txtPrecio.TabIndex = 1;
             // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(141, 240);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(108, 25);
-            this.btnCancelar.TabIndex = 5;
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -119,9 +119,9 @@
             this.txtCantidad.Location = new System.Drawing.Point(21, 205);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(228, 20);
-            this.txtCantidad.TabIndex = 10;
+            this.txtCantidad.TabIndex = 2;
             // 
-            // FrmAgregarProducto
+            // FormAgregarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,7 +139,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmAgregarProducto";
+            this.Name = "FormAgregarProducto";
             this.Text = "Agregar producto";
             this.ResumeLayout(false);
             this.PerformLayout();

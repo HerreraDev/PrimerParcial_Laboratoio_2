@@ -171,12 +171,12 @@
             this.btnListaOriginal.Location = new System.Drawing.Point(18, 381);
             this.btnListaOriginal.Name = "btnListaOriginal";
             this.btnListaOriginal.Size = new System.Drawing.Size(185, 23);
-            this.btnListaOriginal.TabIndex = 5;
+            this.btnListaOriginal.TabIndex = 0;
             this.btnListaOriginal.Text = "Ver lista de ventas original";
             this.btnListaOriginal.UseVisualStyleBackColor = true;
             this.btnListaOriginal.Click += new System.EventHandler(this.btnListaOriginal_Click);
             // 
-            // FrmVenta
+            // FormVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -188,7 +188,10 @@
             this.Controls.Add(this.dtgEmpleados);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.dtgVentas);
-            this.Name = "FrmVenta";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FormVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventas";
             this.Load += new System.EventHandler(this.FrmVenta_Load);

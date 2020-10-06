@@ -1,0 +1,23 @@
+﻿===========================
+DATOS DEL CLIENTE: 
+ID: 11
+Nombre: P3p
+Apellido: Pe
+
+DNI: 1231233
+
+===========================
+DATOS DEL EMPLEADO: 
+ID: 2
+Nombre: Sanjay
+Apellido: Nahasapeemapetilon 
+
+Nacionalidad: India
+
+===========================
+PRODUCTOS: 
+Pan: $60.2, 
+===========================
+TOTAL:    $60.2
+===========================
+
